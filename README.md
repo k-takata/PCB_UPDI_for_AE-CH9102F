@@ -6,6 +6,8 @@
 
 スイッチ1つで、UPDIによる書き込みモードと、シリアル通信モードを切り替えることができます。
 
+UPDI部分の回路は[SerialUPDI](https://github.com/SpenceKonde/AVR-Guidance/blob/master/UPDI/jtag2updi.md)に従っています。
+
 
 ## 使用したソフトウェア
 
