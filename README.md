@@ -27,13 +27,14 @@ KiCad 9.0
 ## 部品表
 
 | Reference |個数|値    | 説明 |
+|-----------|----|------|------|
 |D1         |   1|[11EQS03L](https://akizukidenshi.com/catalog/g/g108997/)|適当なショットキーバリアダイオード |
-|J1         |   1|      |L型ピンソケット 2x6 (\*1)、AE-CH9102F-TYPEC-BO接続用 |
+|J1         |   1|      |L型ピンソケット 2x4 (\*1)、AE-CH9102F-TYPEC-BO接続用 |
 |J2         |   1|      |ピンソケット 1x4、UPDI接続用|
 |J3         |   1|      |[L型ピンソケット 1x6](https://akizukidenshi.com/catalog/g/g109862/)、TTL Serial接続用|
 |J4         |   1|      |ピンヘッダー 1x3、RTS/DTR切り替え用|
-|R1         |   1|470Ω |黄紫茶金、1/6Wサイズ(または1/4サイズ)|
-|SW1,SW2    |   2|[SS-12D00G3](https://akizukidenshi.com/catalog/g/g115707/)|   |
+|R1         |   1|470Ω |黄紫茶金、1/6Wサイズ(または1/4Wサイズ)|
+|SW1,SW2    |   2|[SS-12D00G3](https://akizukidenshi.com/catalog/g/g115707/)|スライドスイッチ 1回路2接点 基板用|
 
 (\*1) 例えば、[L型ピンソケット 2x6](https://akizukidenshi.com/catalog/g/g116795/)を加工して使用する。
 
