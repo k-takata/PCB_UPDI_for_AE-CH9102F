@@ -71,11 +71,7 @@ SW2は、本アダプターから5Vを供給するかどうかを選択します
 
 ## 完成品
 
-T.B.D.
-
-<!--
-[![完成品](https://raw.githubusercontent.com/k-takata/PCB_UPDI_for_AE-CH9102F/master/images/updi-thumb.jpg)](https://raw.githubusercontent.com/k-takata/PCB_UPDI_for_AE-CH9102F/master/images/updi.jpg)
--->
+[![完成品](https://raw.githubusercontent.com/k-takata/PCB_UPDI_for_AE-CH9102F/master/images/updi-adapter-thumb.jpg)](https://raw.githubusercontent.com/k-takata/PCB_UPDI_for_AE-CH9102F/master/images/updi-adapter.jpg)
 
 ## License
 
