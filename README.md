@@ -43,7 +43,7 @@ KiCad 9.0
 
 J1をAE-CH9102F-TYPEC-BOと接続します。AE-CH9102F-TYPEC-BOには付属のピンヘッダーではなく、L型ピンヘッダー 2x4を基板表面側に取り付けておきます。
 
-J2は、[AVR Programming Adaptor](https://www.microchip.com/en-us/development-tool/AC31S18A)と同じUPDI v2コネクターとなっています。
+J2は、[AVR Programming Adapter](https://www.microchip.com/en-us/development-tool/AC31S18A)と同じUPDI v2コネクターとなっています。
 ただし、1番ピンのRESETは未接続です。(高電圧プログラミングには対応していません。)
 
 | Pin | 機能       | 色 |
