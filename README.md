@@ -1,4 +1,4 @@
-# UPDI Adaper for AE-CH9102F
+# UPDI Adapter for AE-CH9102F
 
 ## 概要
 
