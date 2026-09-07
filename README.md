@@ -4,9 +4,9 @@
 
 [秋月電子](https://akizukidenshi.com/)の[CH9102F USBシリアル変換モジュールキット Type-C (AE-CH9102F-TYPEC-BO)](https://akizukidenshi.com/catalog/g/g129505/)を、AVRマイコンのUPDI (Unified Program and Debug Interface)書き込み装置として使うためのアダプターです。
 
-UPDIによる書き込みモードと、シリアル通信モードは自動的に切り替わります。(Rev. 2)
+UPDI書き込みモードとシリアル通信モードは自動的に切り替わります。(Rev. 2)
 
-UPDI部分の回路は[SerialUPDI](https://github.com/SpenceKonde/AVR-Guidance/blob/master/UPDI/jtag2updi.md)を元に、RTS信号による自動切り替え機能を追加してあります。
+UPDI部分の回路は[SerialUPDI](https://github.com/SpenceKonde/AVR-Guidance/blob/master/UPDI/jtag2updi.md)の "No resistor on target OR adapter" の回路を元に、RTS信号による自動切り替え機能を追加してあります。
 
 
 ## 使用したソフトウェア
@@ -16,21 +16,21 @@ KiCad 9.0
 
 ## 回路図
 
-Rev. 2
-[![schema](https://raw.githubusercontent.com/k-takata/PCB_UPDI_for_AE-CH9102F/master/images/schema-rev2.png)](https://raw.githubusercontent.com/k-takata/PCB_UPDI_for_AE-CH9102F/master/images/schema-rev2.pdf)
+Rev. 2  
+[![schema](images/schema-rev2.png)](https://raw.githubusercontent.com/k-takata/PCB_UPDI_for_AE-CH9102F/master/images/schema-rev2.pdf)
 
 
 ## 基板パターン図
 
-Rev. 2
-![PCB pattern](https://raw.githubusercontent.com/k-takata/PCB_UPDI_for_AE-CH9102F/master/images/pcb-pattern-rev2.png)
+Rev. 2  
+![PCB pattern](images/pcb-pattern-rev2.png)
 
 
 ## 部品表
 
 | Reference |個数|値    | 説明 |
 |-----------|----|------|------|
-|D1,D2      |   2|[BAT43](https://akizukidenshi.com/catalog/g/g113907/)|適当なショットキーバリアダイオード (例: [SD103A](https://akizukidenshi.com/catalog/g/g104271), [11EQS03L](https://akizukidenshi.com/catalog/g/g108997/))|
+|D1,D2      |   2|[BAT43](https://akizukidenshi.com/catalog/g/g113907/)|適当なショットキーバリアダイオード (他の例: [SD103A](https://akizukidenshi.com/catalog/g/g104271), [11EQS03L](https://akizukidenshi.com/catalog/g/g108997/))|
 |J1         |   1|      |L型ピンソケット 2x4 (\*1)、AE-CH9102F-TYPEC-BO接続用 |
 |J2         |   1|      |ピンソケット 1x4、UPDI接続用|
 |J3         |   1|      |[L型ピンソケット 1x6](https://akizukidenshi.com/catalog/g/g109862/)、TTL Serial接続用|
@@ -71,10 +71,10 @@ J3は、一般的な6pinのTTLシリアルコネクターとなっています�
 
 SW1は、本アダプターから5Vを供給するかどうかを選択します。シルクのONの側に倒すと5Vを供給し、OFFの側に倒すと供給しません。マイコンに対して別の経路で電源を供給済みの場合はOFFにしてください。
 
-UPDIによる書き込みモードと、シリアル通信モードは自動的に切り替わります。
+UPDI書き込みモードとシリアル通信モードは自動的に切り替わります。
 RTSがアクティブ(Low)の場合、シリアル通信モードとなり、そうでなければUPDIモードとなります。
 
-Rev. 1では切り替え回路を単純にするため、2回路2接点スイッチではなく、1回路2接点スイッチを使用し、TxD側は接続したままとし、RxD側のみを切り替えるようにしていましたが、Rev. 2ではそれを発展させ、Nch MOSFET, Pch MOSFET, ショットキー・ダイオード（と追加のプルアップ抵抗）のみで切り替えを実現しています。 (先行事例としては、4066などのアナログスイッチを使った例が多いようです。)  
+Rev. 1では切り替え回路を単純にするため、2回路2接点スイッチではなく、1回路2接点スイッチを使用し、TxD側は接続したままとし、RxD側のみ（つまりAVRから送信する側）を切り替えるようにしていました。Rev. 2ではそれを発展させ、Nch MOSFET, Pch MOSFET, ショットキー・ダイオード（と追加のプルアップ抵抗）のみで自動切り替えを実現しています。 (先行事例としては、4066などのアナログスイッチICで2回路2接点スイッチを構成する例が多いようです。)  
 Rev. 1ではUPDIデータ線はRxDと直結していましたが、Rev. 2ではQ1を介すように変更しています。Rev. 1の接続では、シリアル通信モードでAVRから送信したデータがUPDIにも届くため、通信内容によっては誤動作の可能性がありました。
 
 
@@ -88,8 +88,8 @@ Rev. 2での変更点は以下の通りです。
 
 ## 完成品
 
-Rev. 1
-[![完成品](https://raw.githubusercontent.com/k-takata/PCB_UPDI_for_AE-CH9102F/master/images/updi-adapter-thumb.jpg)](https://raw.githubusercontent.com/k-takata/PCB_UPDI_for_AE-CH9102F/master/images/updi-adapter.jpg)
+Rev. 1  
+[![完成品](images/updi-adapter-thumb.jpg)](images/updi-adapter.jpg)
 
 ## License
 
