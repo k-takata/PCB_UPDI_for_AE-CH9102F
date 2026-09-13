@@ -93,6 +93,9 @@ Rev. 2での変更点は以下の通りです。
 Rev. 1  
 [![完成品](images/updi-adapter-thumb.jpg)](images/updi-adapter.jpg)
 
+Rev. 2  
+[![完成品 Rev. 2](images/updi-adapter-rev2-thumb.jpg)](images/updi-adapter-rev2.jpg)
+
 ## License
 
 CC0
