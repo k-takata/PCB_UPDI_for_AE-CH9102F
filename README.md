@@ -8,6 +8,7 @@ UPDI書き込みモードとシリアル通信モードは自動的に切り替�
 
 UPDI部分の回路は[SerialUPDI](https://github.com/SpenceKonde/AVR-Guidance/blob/master/UPDI/jtag2updi.md)の "No resistor on target OR adapter" の回路を元に、RTS信号による自動切り替え機能を追加してあります。
 
+注: 本アダプターは高電圧(HV)プログラミングには対応していません。HVプログラミングが必要な場合は、関連プロジェクトの[UPDI Unbricker](https://github.com/k-takata/PCB_updi_unbricker)を参照してください。
 
 ## 使用したソフトウェア
 
