@@ -1,10 +1,10 @@
-# UPDI Adapter for AE-CH9102F (Rev. 2)
+# UPDI Adapter for AE-CH9102F (Rev. 3)
 
 ## 概要
 
 [秋月電子](https://akizukidenshi.com/)の[CH9102F USBシリアル変換モジュールキット Type-C (AE-CH9102F-TYPEC-BO)](https://akizukidenshi.com/catalog/g/g129505/)を、AVRマイコンのUPDI (Unified Program and Debug Interface)書き込み装置として使うためのアダプターです。
 
-UPDI書き込みモードとシリアル通信モードは自動的に切り替わります。(Rev. 2)
+UPDI書き込みモードとシリアル通信モードは自動的に切り替わります。(Rev. 2以降)
 
 UPDI部分の回路は[SerialUPDI](https://github.com/SpenceKonde/AVR-Guidance/blob/master/UPDI/jtag2updi.md)の "No resistor on target OR adapter" の回路を元に、RTS信号による自動切り替え機能を追加してあります。
 
