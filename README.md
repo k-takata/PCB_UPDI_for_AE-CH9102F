@@ -30,7 +30,7 @@ Rev. 3
 
 | Reference |個数|値    | 説明 |
 |-----------|----|------|------|
-|D1         |   1|BAT43WS|SOD-323、適当なショットキーバリアダイオード|
+|D1         |   1|[BAT43XV2](https://akizukidenshi.com/catalog/g/g106467/)|SOD-523、適当なショットキーバリアダイオード|
 |J1         |   1|      |L型ピンソケット 2x4 (\*1)、AE-CH9102F-TYPEC-BO接続用 |
 |J2         |   1|      |ピンソケット 1x4、UPDI接続用|
 |J3         |   1|      |[L型ピンソケット 1x6](https://akizukidenshi.com/catalog/g/g109862/)、TTL Serial接続用|
