@@ -38,7 +38,7 @@ Rev. 3
 |R1         |   1|470Ω |1608M|
 |R2         |   1|100kΩ|1608M|
 |SW1        |   1|[SS-12D00G3](https://akizukidenshi.com/catalog/g/g115707/)|スライドスイッチ 1回路2接点 基板用|
-|U1         |   1|74LVC1G3157|SOT-223-6|
+|U1         |   1|74LVC1G3157|SOT-23-6|
 
 (\*1) 例えば、[L型ピンソケット 2x6](https://akizukidenshi.com/catalog/g/g116795/) (1個分)や[L型ピンソケット 2x15](https://akizukidenshi.com/catalog/g/g113419/) (3個分)などを加工して使用する。  
 
