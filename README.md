@@ -17,7 +17,7 @@ KiCad 9.0
 ## 回路図
 
 Rev. 3  
-[![schema](images/schema-rev3.png)](https://raw.githubusercontent.com/k-takata/PCB_UPDI_for_AE-CH9102F/master/images/schema-rev3.pdf)
+[![schema](images/schema-rev3.png)](images/schema-rev3.pdf)
 
 
 ## 基板パターン図
