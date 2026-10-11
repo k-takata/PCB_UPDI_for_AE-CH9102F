@@ -105,10 +105,8 @@ Rev. 1
 Rev. 2  
 [![完成品 Rev. 2](images/updi-adapter-rev2-thumb.jpg)](images/updi-adapter-rev2.jpg)
 
-<!--
 Rev. 3  
 [![完成品 Rev. 3](images/updi-adapter-rev3-thumb.jpg)](images/updi-adapter-rev3.jpg)
--->
 
 
 ## License
